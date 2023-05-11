@@ -1,25 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HeaderResponsive from './Header'
+import { MantineProvider } from '@mantine/core';
+import Home from './Home'
+import FooterSimple from './Footer';
+import AnhaengerM from './AnhaengerM';
+import AnhaengerS from './AnhaengerS';
+import AnhaengerXL from './AnhaengerXL';
+import AnhaengerAT from './AnhaengerAT';
+import AnhaengerL from './AnhaengerL';
+import Impressum from './Impressum';
 
 function App() {
+
+
+  const links = [
+    { link: '/', label: 'Home' },
+    { link: '/anhaenger', label: 'Anhänger' },
+    { link: '/impressum', label: 'Impressum' },
+   
+  ];
+
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+<BrowserRouter>
+<MantineProvider theme={{ fontFamily: 'Open Sans' }} withGlobalStyles withNormalizeCSS>
+<HeaderResponsive links={links} />
+<Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/Anhaenger' element={<AnhaengerM/>}/>
+  <Route path='/AnhaengerM' element={<AnhaengerM/>}/>
+  <Route path='/AnhaengerL' element={<AnhaengerL/>}/>
+  <Route path='/AnhaengerS' element={<AnhaengerS/>}/>
+  <Route path='/AnhaengerXL' element={<AnhaengerXL/>}/>
+  <Route path='/AnhaengerAt' element={<AnhaengerAT/>}/>
+  <Route path='/Impressum' element={<Impressum/>}/>
+
+</Routes>
+
+
+<FooterSimple links={links}/>
+
+    </MantineProvider>
+
+
+    </BrowserRouter>
   );
 }
 
