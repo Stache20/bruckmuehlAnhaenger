@@ -20,7 +20,7 @@ function AnhaengerL() {
 
   return (
     <div>
-    <div style={{ width: 600, margin: 'auto' }}>
+    <div style={{ width: '40%', margin: 'auto' }}>
       <Card  shadow="sm" padding="lg">
         <Text align="center" size='xl' weight={700}>L-Anhänger</Text>
         <Text align="center" size="m" style={{ color: secondaryColor, lineHeight: 2 }}>

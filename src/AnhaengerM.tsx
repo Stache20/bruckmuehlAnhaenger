@@ -21,7 +21,7 @@ function AnhaengerM() {
 
   return (
     <div>
-    <div style={{ width: 600, margin: 'auto' }}>
+    <div style={{ width: '40%', margin: 'auto' }}>
       <Card  shadow="sm" padding="lg">
       <Group position="apart" mt="xs" mb="xs">
         <Text align="center" size='xl' weight={700}>M-Anhänger</Text>

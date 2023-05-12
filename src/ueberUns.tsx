@@ -121,7 +121,6 @@ Mieten Sie jetzt den perfekten Anhänger für jeden Bedarf - schnell, einfach un
         
           <Button onClick={() =>
           scrollIntoView({
-            alignment: 'center',
           })
         }
  variant="outline" color="teal.7" className={classes.control} size="lg">
