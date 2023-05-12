@@ -1,5 +1,5 @@
 import React from 'react';
-import {Accordion, rem, ThemeIcon, List, Card, Image, Text, Badge, Button, Group, useMantineTheme } from '@mantine/core';
+import {Accordion, rem, ThemeIcon, List, Card, Text, Badge, Button, Group, useMantineTheme } from '@mantine/core';
 import Main from './Main'
 import { IconCaravan, IconPlus } from '@tabler/icons-react';
 import ContactIcons from './Contact';
