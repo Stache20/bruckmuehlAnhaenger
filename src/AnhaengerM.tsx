@@ -1,14 +1,24 @@
 import React from 'react';
-import {Accordion, rem, ThemeIcon, List, Card, Text, Badge, Button, Group, useMantineTheme } from '@mantine/core';
+import {createStyles, Accordion, rem, ThemeIcon, List, Card, Text, Badge, Button, Group, useMantineTheme } from '@mantine/core';
 import Main from './Main'
 import { IconCaravan, IconPlus } from '@tabler/icons-react';
 import ContactIcons from './Contact';
 import { useScrollIntoView } from '@mantine/hooks';
 
+const useStyles = createStyles(() => ({
 
+  cardStyle :{
+    maxWidth:'600px',
+    width: '90%',
+     margin: 'auto'
+  }
+
+}))
 
 
 function AnhaengerM() {
+  const { classes } = useStyles();
+
   const theme = useMantineTheme();
 
   const secondaryColor = theme.colorScheme === 'dark'
@@ -21,7 +31,7 @@ function AnhaengerM() {
 
   return (
     <div>
-    <div style={{ width: '40%', margin: 'auto' }}>
+    <div className={classes.cardStyle}>
       <Card  shadow="sm" padding="lg">
       <Group position="apart" mt="xs" mb="xs">
         <Text align="center" size='xl' weight={700}>M-Anhänger</Text>

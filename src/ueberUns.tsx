@@ -103,16 +103,16 @@ export function HeroText() {
       
 
       <div className={classes.inner}>
-        <Title className={classes.title}>
+        <Title ta='center' className={classes.title}>
           Ihr{' '}
-          <Text component="span" className={classes.highlight} inherit>
+          <Text ta='center' component="span" className={classes.highlight} inherit>
             AnhaengerVerleih
           </Text>{' '}
           in Bruckmühl
         </Title>
 
         <Container p={0} size={600}>
-          <Text size="lg" color="dimmed" className={classes.description}>
+          <Text ta='center' size="lg" color="dimmed" className={classes.description}>
 Mieten Sie jetzt den perfekten Anhänger für jeden Bedarf - schnell, einfach und bequem! Unser Anhängerverleih bietet Ihnen eine große Auswahl an hochwertigen Anhängern. Egal ob für den Umzug, den Transport von Baumaterialien oder Autotransport - bei uns finden Sie garantiert den passenden Anhänger. 
           </Text>
         </Container>
