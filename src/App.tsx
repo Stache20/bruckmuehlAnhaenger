@@ -31,13 +31,13 @@ function App() {
 <HeaderResponsive links={links} />
 <Routes>
   <Route path='/' element={<Home/>}/>
-  <Route path='/Anhaenger' element={<AnhaengerM/>}/>
-  <Route path='/AnhaengerM' element={<AnhaengerM/>}/>
-  <Route path='/AnhaengerL' element={<AnhaengerL/>}/>
-  <Route path='/AnhaengerS' element={<AnhaengerS/>}/>
-  <Route path='/AnhaengerXL' element={<AnhaengerXL/>}/>
-  <Route path='/AnhaengerAt' element={<AnhaengerAT/>}/>
-  <Route path='/Impressum' element={<Impressum/>}/>
+  <Route path='/anhaenger' element={<AnhaengerM/>}/>
+  <Route path='/anhaengerM' element={<AnhaengerM/>}/>
+  <Route path='/anhaengerL' element={<AnhaengerL/>}/>
+  <Route path='/anhaengerS' element={<AnhaengerS/>}/>
+  <Route path='/anhaengerXL' element={<AnhaengerXL/>}/>
+  <Route path='/anhaengerAt' element={<AnhaengerAT/>}/>
+  <Route path='/impressum' element={<Impressum/>}/>
 
 </Routes>
 
