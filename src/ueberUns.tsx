@@ -106,7 +106,7 @@ export function HeroText() {
         <Title ta='center' className={classes.title}>
           Ihr{' '}
           <Text ta='center' component="span" className={classes.highlight} inherit>
-            AnhaengerVerleih
+            AnhängerVerleih
           </Text>{' '}
           in Bruckmühl
         </Title>

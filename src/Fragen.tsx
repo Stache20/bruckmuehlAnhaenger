@@ -1,4 +1,6 @@
 import { Container, Title, Accordion, createStyles, rem } from '@mantine/core';
+import { IconPlus } from '@tabler/icons-react';
+
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -12,17 +14,28 @@ const useStyles = createStyles((theme) => ({
   },
 
   item: {
-    borderRadius: theme.radius.md,
-    marginBottom: theme.spacing.lg,
-    border: `${rem(1)} solid ${
-      theme.colorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[3]
-    }`,
+    // styles added to all items
+    backgroundColor: 'white',
+    border: `${rem(1)} solid #ededed`,
+
+    // styles added to expanded item
+    '&[data-active]': {
+      backgroundColor: '#E6FCF5',
+    },
   },
+
+  chevron: {
+    '&[data-rotate]': {
+      transform: 'rotate(45deg)',
+    },
+  },
+
+
 }));
 
-const answerOne = 'Übers Telefon! Bitte rufen Sie uns unter 19293 an '
-const answerTwo = 'Bitte Informieren Sie uns rechtzeitig sobald Sie wissen dass Sie sich verspäten'
-const answerThree= 'Bitte Fragen Sie uns bezüglich langfristigen '
+const answerOne = 'Bitte Reservieren Sie telefonisch unter +49 (8062) 7187.'
+const answerTwo = 'Bitte Informieren Sie uns rechtzeitig sobald Sie wissen, dass Sie sich verspäten.'
+const answerThree= 'Bitte Fragen Sie uns bezüglich langfristigen Tarifen, gerne auch telefonisch unter +49 (8062) 7187.'
 const answerFour= 'Stonierungen sind bis zu 24 Stunden im Voraus möglich'
   
 
@@ -34,7 +47,8 @@ export function FaqSimple() {
         Antworten auf alle Fragen
       </Title>
 
-      <Accordion variant="separated">
+      <Accordion       chevron={<IconPlus size="1rem" />}
+ variant="separated">
         <Accordion.Item className={classes.item} value="reset-password">
           <Accordion.Control>Wie kann ich Reservieren?</Accordion.Control>
           <Accordion.Panel>{answerOne}</Accordion.Panel>
