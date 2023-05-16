@@ -1,5 +1,5 @@
 import { createStyles, ThemeIcon, Text, SimpleGrid, Box, Stack } from '@mantine/core';
-import { IconHome2, IconSun, IconPhone, IconMapPin, IconAt } from '@tabler/icons-react';
+import { IconHome2, IconAppWindow, IconSun, IconPhone, IconMapPin, IconAt } from '@tabler/icons-react';
 
 
 type ContactIconVariant = 'white' | 'gradient';
@@ -84,6 +84,8 @@ const MOCKDATA = [
   { title: 'Telefon', description: '+49 (8062) 7187', icon: IconPhone },
   { title: 'Addresse', description: 'Albert-Mayer-Straße 22, 83052 Bruckmühl', icon: IconMapPin },
   { title: 'Öffnungszeiten', description: '24 Stunden', icon: IconSun },
+  { title: 'Webseite', description: 'Hosting und Code dieser Seite <> von Webpretzel.ca bereitgestellt', icon: IconAppWindow }
+
 ];
 
 export function ContactIconsList({ data = MOCKDATA, variant }: ContactIconsListProps) {
