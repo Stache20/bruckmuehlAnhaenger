@@ -162,7 +162,7 @@ function AnhaengerM() {
       </Accordion.Item>
       <Accordion.Item  value="contact">
         <Accordion.Control style={{ color: 'teal.7'}}>Jetzt Reservieren</Accordion.Control>
-        <Accordion.Panel>Bitte Reservieren Sie telefonisch unter +49 (8062) 7187</Accordion.Panel>
+        <Accordion.Panel>Bitte Reservieren Sie telefonisch unter <Text component='a' href={'Tel:+4980627187'}>+49 (8062) 7187.</Text></Accordion.Panel>
       </Accordion.Item>
 
       <Accordion.Item  value="mehr">

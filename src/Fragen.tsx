@@ -1,4 +1,4 @@
-import { Container, Title, Accordion, createStyles, rem } from '@mantine/core';
+import { Container, Title, Accordion, createStyles, rem, Text } from '@mantine/core';
 import { IconPlus } from '@tabler/icons-react';
 
 
@@ -33,7 +33,7 @@ const useStyles = createStyles((theme) => ({
 
 }));
 
-const answerOne = 'Bitte Reservieren Sie telefonisch unter +49 (8062) 7187.'
+const answerOne = 'Bitte Reservieren Sie telefonisch unter '
 const answerTwo = 'Bitte Informieren Sie uns rechtzeitig sobald Sie wissen, dass Sie sich verspäten.'
 const answerThree= 'Bitte Fragen Sie uns bezüglich langfristigen Tarifen, gerne auch telefonisch unter +49 (8062) 7187.'
 const answerFour= 'Stonierungen sind bis zu 24 Stunden im Voraus möglich'
@@ -51,7 +51,7 @@ export function FaqSimple() {
  variant="separated">
         <Accordion.Item className={classes.item} value="reset-password">
           <Accordion.Control>Wie kann ich Reservieren?</Accordion.Control>
-          <Accordion.Panel>{answerOne}</Accordion.Panel>
+          <Accordion.Panel>{answerOne}<Text component='a' href={'Tel:+4980627187'}>+49 (8062) 7187.</Text></Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="another-account">
@@ -66,7 +66,7 @@ export function FaqSimple() {
 
         <Accordion.Item className={classes.item} value="credit-card">
           <Accordion.Control>Kann ich eine Reservierung stornieren?</Accordion.Control>
-          <Accordion.Panel>{answerFour}</Accordion.Panel>
+          <Accordion.Panel >{answerFour}</Accordion.Panel>
         </Accordion.Item>
 
        
