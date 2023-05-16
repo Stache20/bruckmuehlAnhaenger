@@ -11,6 +11,7 @@ import AnhaengerXL from './AnhaengerXL';
 import AnhaengerAT from './AnhaengerAT';
 import AnhaengerL from './AnhaengerL';
 import Impressum from './Impressum';
+import Cookies from './Cookies'
 
 function App() {
 
@@ -41,7 +42,7 @@ function App() {
 
 </Routes>
 
-
+<Cookies/>
 <FooterSimple links={links}/>
 
     </MantineProvider>
