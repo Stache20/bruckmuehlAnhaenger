@@ -38,7 +38,7 @@ const anhaenger = [
       'Allzweckanhänger ohne Plane.',
       descriptionTwo: 'Zulässiges Gesamtgewicht: 2 t, mit Bremse.',
       descriptionThree: 'Nutzmaße: 2500 x 1300 x1600 mm.',
-      descriptionFour: 'Nutzmaße: 3000 x 1500 x400 mm.',
+      descriptionFour: 'Max. Zuladung: 1620 kg.',
       priceOne: '1 - 5  Std. - 25,- € ',
       priceTwo: '6 - 24 Std. - 35,- €',
       priceThree: 'Wochenende (Fr 15:00 Uhr - Mo 9:00 Uhr) - 70,- €',
