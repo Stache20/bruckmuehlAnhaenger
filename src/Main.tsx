@@ -57,6 +57,7 @@ import {
     title: {
       fontSize: rem(34),
       fontWeight: 900,
+      paddingTop: '10%',
   
       [theme.fn.smallerThan('sm')]: {
         fontSize: rem(24),
