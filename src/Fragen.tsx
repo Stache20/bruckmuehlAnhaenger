@@ -35,7 +35,7 @@ const useStyles = createStyles((theme) => ({
 
 const answerOne = 'Bitte Reservieren Sie telefonisch unter '
 const answerTwo = 'Bitte Informieren Sie uns rechtzeitig sobald Sie wissen, dass Sie sich verspäten.'
-const answerThree= 'Bitte Fragen Sie uns bezüglich langfristigen Tarifen, gerne auch telefonisch unter +49 (8062) 7187.'
+const answerThree= 'Bitte Fragen Sie uns bezüglich langfristigen Tarifen, gerne auch telefonisch unter '
 const answerFour= 'Stonierungen sind bis zu 24 Stunden im Voraus möglich'
   
 
@@ -61,7 +61,7 @@ export function FaqSimple() {
 
         <Accordion.Item className={classes.item} value="newsletter">
           <Accordion.Control>Gibt es längere vermietungen als die Tarife angegeben?</Accordion.Control>
-          <Accordion.Panel>{answerThree}</Accordion.Panel>
+          <Accordion.Panel>{answerThree}<Text component='a' href={'Tel:+4980627187'}>+49 (8062) 7187.</Text></Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="credit-card">

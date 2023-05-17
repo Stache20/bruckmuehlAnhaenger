@@ -5,8 +5,8 @@ import Main from './Main'
 const useStyles = createStyles((theme) => ({
   wrapper: {
     position: 'relative',
-    paddingTop: rem(120),
-    paddingBottom: rem(80),
+    paddingTop: rem(90),
+    paddingBottom: rem(110),
 
     [theme.fn.smallerThan('sm')]: {
       paddingTop: rem(80),
@@ -107,8 +107,9 @@ export function HeroText() {
           Ihr{' '}
           <Text ta='center' component="span" className={classes.highlight} inherit>
             AnhängerVerleih
-          </Text>{' '}
-          in Bruckmühl
+          </Text>
+          <Text size={25}>In der OMV-Tankstelle</Text>
+          <Text size={25}>Albert-Mayer-Straße 22, 83052 Bruckmühl </Text>
         </Title>
 
         <Container p={0} size={600}>

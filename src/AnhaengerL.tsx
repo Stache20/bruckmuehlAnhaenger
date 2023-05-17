@@ -15,7 +15,7 @@ const anhaenger = [
       descriptionFour: 'Max. Zuladung: 530 kg.',
       priceOne: '1 - 5  Std. - 23,- € ',
       priceTwo: '6 - 24 Std. - 30,- €',
-      priceThree: 'Wochenende  - 60,- €',
+      priceThree: 'Wochenende (Fr 15:00 Uhr - Mo 9:00 Uhr)  - 60,- €',
       priceFour: '1 Woche     - 150,- €',
       link: '/anhaengerS',
   },
@@ -28,7 +28,7 @@ const anhaenger = [
       descriptionFour: 'Max. Zuladung: 1620 kg.',
       priceOne: '1 - 5  Std. - 25,- € ',
       priceTwo: '6 - 24 Std. - 35,- €',
-      priceThree: 'Wochenende  - 70,- €',
+      priceThree: 'Wochenende (Fr 15:00 Uhr - Mo 9:00 Uhr)  - 70,- €',
       priceFour: '1 Woche     - 175,- €',
       link: '/anhaengerM',
     },
@@ -41,7 +41,7 @@ const anhaenger = [
       descriptionFour: 'Max. Zuladung: 1620 kg.',
       priceOne: '1 - 5  Std. - 25,- € ',
       priceTwo: '6 - 24 Std. - 35,- €',
-      priceThree: 'Wochenende  - 70,- €',
+      priceThree: 'Wochenende (Fr 15:00 Uhr - Mo 9:00 Uhr) - 70,- €',
       priceFour: '1 Woche     - 175,- €',
       link: '/anhaengerL',
     },
@@ -55,7 +55,7 @@ const anhaenger = [
       descriptionFour: 'Max. Zuladung: 1845 kg.',
       priceOne: '1 - 5  Std. - 35,- € ',
       priceTwo: '6 - 24 Std. - 50,- €',
-      priceThree: 'Wochenende  - 100,- €',
+      priceThree: 'Wochenende (Fr 15:00 Uhr - Mo 9:00 Uhr)  - 100,- €',
       priceFour: '1 Woche     - 250,- €',
       link: '/anhaengerXL',
     },
@@ -69,7 +69,7 @@ const anhaenger = [
       descriptionFour: 'Max. Zuladung: 1590 kg.',
       priceOne: '1 - 5  Std. - 35,- € ',
       priceTwo: '6 - 24 Std. - 50,- €',
-      priceThree: 'Wochenende  - 100,- €',
+      priceThree: 'Wochenende (Fr 15:00 Uhr - Mo 9:00 Uhr) - 100,- €',
       priceFour: '1 Woche     - 250,- €',
       link: '/anhaengerAT',
     },
@@ -159,7 +159,7 @@ function AnhaengerL() {
  >
       <Accordion.Item  value="customization">
         <Accordion.Control style={{ color: 'teal.7'}}>Geschäftsbedingungen</Accordion.Control>
-        <Accordion.Panel>Alle Preise verstehen sich inkl. gesetzlicher Mwst. Änderung und Anpassungen vorbehalten. Alle früheren Preislisten sind ungültig. Wochenendtarif gilt von Fr. 15:00 Uhr bis 9:00 Uhr. Eine Anmietung ist nur bei Vorlage eines gültigen Personalausweises und Füherscheins möglich. Die Mietgebühr ist im Voraus zu zahlen. Eine Kaution in Höhe von 50 € (mit Adapterstück 60€) ist bei Übernahme des Anhängers zu hinterlegen.</Accordion.Panel>
+        <Accordion.Panel>Alle Preise verstehen sich inkl. gesetzlicher Mwst. Änderung und Anpassungen vorbehalten. Alle früheren Preislisten sind ungültig. Wochenendtarif gilt von Fr. 15:00 Uhr bis Mo. 9:00 Uhr. Eine Anmietung ist nur bei Vorlage eines gültigen Personalausweises und Füherscheins möglich. Die Mietgebühr ist im Voraus zu zahlen. Eine Kaution in Höhe von 50 € (mit Adapterstück 60€) ist bei Übernahme des Anhängers zu hinterlegen.</Accordion.Panel>
       </Accordion.Item>
       <Accordion.Item  value="contact">
         <Accordion.Control style={{ color: 'teal.7'}}>Jetzt Reservieren</Accordion.Control>
