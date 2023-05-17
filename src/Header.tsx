@@ -58,7 +58,7 @@ const useStyles = createStyles((theme) => ({
   link: {
     display: 'block',
     lineHeight: 1,
-    padding: `${rem(8)} ${rem(12)}`,
+    padding: `${rem(6)} ${rem(10)}`,
     borderRadius: theme.radius.sm,
     textDecoration: 'none',
     color: theme.fn.variant({ variant: 'light', color: 'green' }).color,
