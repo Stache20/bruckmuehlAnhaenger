@@ -1,5 +1,5 @@
 import { createStyles, ThemeIcon, Text, SimpleGrid, Box, Stack } from '@mantine/core';
-import { IconHome2, IconSun, IconPhone, IconMapPin, IconAt } from '@tabler/icons-react';
+import { IconHome2, IconAppWindow, IconSun, IconPhone, IconMapPin, IconAt } from '@tabler/icons-react';
 
 
 type ContactIconVariant = 'white' | 'gradient';
@@ -40,12 +40,14 @@ interface ContactIconProps extends Omit<React.ComponentPropsWithoutRef<'div'>, '
   title: React.ReactNode;
   description: React.ReactNode;
   variant?: ContactIconVariant;
+  link:string;
 }
 
 function ContactIcon({
   icon: Icon,
   title,
   description,
+  link,
   variant = 'gradient',
   className,
   ...others
@@ -67,7 +69,7 @@ function ContactIcon({
         <Text size="xs" className={classes.title}>
           {title}
         </Text>
-        <Text className={classes.description}>{description}</Text>
+        <Text component='a' href={link} target='_blank' className={classes.description}>{description}</Text>
       </div>
     </div>
   );
@@ -79,11 +81,13 @@ interface ContactIconsListProps {
 }
 
 const MOCKDATA = [
-    { title: 'OMV Tankstelle Bruckmühl', description: 'Albert Stahuber e.K.', icon: IconHome2 },
-    { title: 'Email', description: 'de7482@partnernet.eurogarages.de', icon: IconAt },
-  { title: 'Telefon', description: '+49 (8062) 7187', icon: IconPhone },
-  { title: 'Addresse', description: 'Albert-Mayer-Straße 22, 83052 Bruckmühl', icon: IconMapPin },
-  { title: 'Öffnungszeiten', description: '24 Stunden', icon: IconSun },
+    { title: 'OMV Tankstelle Bruckmühl', description: 'Albert Stahuber e.K.', link:'./impressum', icon: IconHome2 },
+    { title: 'Email', description: 'de7482@partnernet.eurogarages.de',link:'mailto:de7482@partnernet.eurogarages.de', icon: IconAt },
+  { title: 'Telefon', description: '+49 (8062) 7187', link:'tel:+49 (8062) 7187',icon: IconPhone },
+  { title: 'Addresse', description: 'Albert-Mayer-Straße 22, 83052 Bruckmühl',link:'./impressum', icon: IconMapPin },
+  { title: 'Öffnungszeiten', description: '24 Stunden',link:'/', icon: IconSun },
+  { title: 'Webseite', description: 'Hosting und Code dieser Seite <> von Webpretzel.ca bereitgestellt',link:'https://webpretzel.ca/', icon: IconAppWindow }
+
 ];
 
 export function ContactIconsList({ data = MOCKDATA, variant }: ContactIconsListProps) {

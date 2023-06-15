@@ -27,14 +27,17 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-interface FooterSimpleProps {
-  links: { link: string; label: string }[];
-}
 
-export function FooterSimple({ links }: FooterSimpleProps) {
+
+export function FooterSimple() {
 
     
-
+  const links = [
+    { link: '/', label: 'Home' },
+    { link: '/anhaenger', label: 'Anhänger' },
+    { link: '/impressum', label: 'Impressum' },
+    { link: '/datenschutz', label: 'Datenschutz'}
+  ];
 
 
   const { classes } = useStyles();

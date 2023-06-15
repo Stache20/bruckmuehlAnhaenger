@@ -1,7 +1,5 @@
 import {
     createStyles,
-    Badge,
-    Group,
     Title,
     Text,
     Card,
@@ -16,6 +14,7 @@ import {
       title: 'S - Anhänger',
       description:
         'Allzweckanhänger mit Plane. Nutzmaße: 2500 x 1300 x 1600 mm.',
+        descriptionTwo: 'Max. Zuladung 530 kg.',
         price: 'Ab 23,00 € ',
         link: '/anhaengerS',
     },
@@ -23,6 +22,7 @@ import {
       title: 'M - Anhänger',
       description:
         'Allzweckanhänger mit Plane. Nutzmaße: 2500 x 1300 x 1600 mm',
+        descriptionTwo: 'Max. Zuladung 1000 kg.',
         price: 'Ab 25,00 € ',
         link: '/anhaengerM',
     },
@@ -30,6 +30,7 @@ import {
       title: 'L - Anhänger',
       description:
         'Allzweckanhänger ohne Plane. Nutzmaße: 3000 x 1500 x 400 mm.',
+        descriptionTwo: 'Max. Zuladung 1620 kg.',
       price: 'Ab 25,00 € ',
       link: '/anhaengerL',
     
@@ -38,6 +39,7 @@ import {
       title: 'XL - Anhänger',
       description:
         'Allyweckanhänger mit Plane. Nutzmaße: 4100 x 1850 x 2000 mm',
+        descriptionTwo: 'Max. Zuladung 1845 kg.',
         price: 'Ab 35,00 € ',
         link: '/anhaengerXL',
     },
@@ -45,6 +47,7 @@ import {
       title: 'Autoanhänger',
       description:
         'Autotransportanhänger. Nutzmaße: 4300 x 2100 x 120 mm',
+        descriptionTwo: 'Max. Zuladung 1590 kg.',
         price: 'Ab 35,00 € ',
         link: '/anhaengerAT',
     },
@@ -54,6 +57,7 @@ import {
     title: {
       fontSize: rem(34),
       fontWeight: 900,
+      paddingTop: '10%',
   
       [theme.fn.smallerThan('sm')]: {
         fontSize: rem(24),
@@ -95,7 +99,7 @@ import {
   }));
   
   export function FeaturesCards() {
-    const { classes, theme } = useStyles();
+    const { classes } = useStyles();
     const features = mockdata.map((feature) => (
       <Card key={feature.title} shadow="md" radius="md" className={classes.card} padding="xl">
         <Text fz="lg" fw={500} className={classes.cardTitle} mt="md">
@@ -103,6 +107,9 @@ import {
         </Text>
         <Text fz="sm" c="dimmed" mt="sm">
           {feature.description}
+        </Text>
+        <Text fz="sm" c="dimmed" mt="sm">
+          {feature.descriptionTwo}
         </Text>
         <Button component="a" href={feature.link} variant="outline" color="teal.7" fullWidth mt="md" radius="md">
 {feature.price}      </Button>

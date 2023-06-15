@@ -5,8 +5,8 @@ import Main from './Main'
 const useStyles = createStyles((theme) => ({
   wrapper: {
     position: 'relative',
-    paddingTop: rem(120),
-    paddingBottom: rem(80),
+    paddingTop: rem(90),
+    paddingBottom: rem(110),
 
     [theme.fn.smallerThan('sm')]: {
       paddingTop: rem(80),
@@ -103,16 +103,17 @@ export function HeroText() {
       
 
       <div className={classes.inner}>
-        <Title className={classes.title}>
+        <Title ta='center' className={classes.title}>
           Ihr{' '}
-          <Text component="span" className={classes.highlight} inherit>
-            AnhaengerVerleih
-          </Text>{' '}
-          in Bruckmühl
+          <Text ta='center' component="span" className={classes.highlight} inherit>
+            AnhängerVerleih
+          </Text>
+          <Text size={25}>In der OMV-Tankstelle</Text>
+          <Text size={25}>Albert-Mayer-Straße 22, 83052 Bruckmühl </Text>
         </Title>
 
         <Container p={0} size={600}>
-          <Text size="lg" color="dimmed" className={classes.description}>
+          <Text ta='center' size="lg" color="dimmed" className={classes.description}>
 Mieten Sie jetzt den perfekten Anhänger für jeden Bedarf - schnell, einfach und bequem! Unser Anhängerverleih bietet Ihnen eine große Auswahl an hochwertigen Anhängern. Egal ob für den Umzug, den Transport von Baumaterialien oder Autotransport - bei uns finden Sie garantiert den passenden Anhänger. 
           </Text>
         </Container>
@@ -121,7 +122,6 @@ Mieten Sie jetzt den perfekten Anhänger für jeden Bedarf - schnell, einfach un
         
           <Button onClick={() =>
           scrollIntoView({
-            alignment: 'center',
           })
         }
  variant="outline" color="teal.7" className={classes.control} size="lg">
