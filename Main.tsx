@@ -1,5 +1,7 @@
 import {
     createStyles,
+    Badge,
+    Group,
     Title,
     Text,
     Card,
@@ -93,7 +95,7 @@ import {
   }));
   
   export function FeaturesCards() {
-    const { classes } = useStyles();
+    const { classes, theme } = useStyles();
     const features = mockdata.map((feature) => (
       <Card key={feature.title} shadow="md" radius="md" className={classes.card} padding="xl">
         <Text fz="lg" fw={500} className={classes.cardTitle} mt="md">
