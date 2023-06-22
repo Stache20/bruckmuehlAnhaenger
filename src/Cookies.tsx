@@ -9,7 +9,7 @@ export function Cookies(props:any) {
 
 <h1>Sehr geehrte Besucher unserer Webseite,</h1>
 
-<p>Wir nutzen Cookies auf unserer Website. Sie sind essenziell für diese Website und Ihre Erfahrung zu verbessern. Wenn Sie unter 16 Jahre alt sind und Ihre Zustimmung zu freiwilligen Diensten geben möchten, müssen Sie Ihre Erziehungsberechtigten um Erlaubnis bitten. Personenbezogene Daten können verarbeitet werden (z. B. IP-Adressen). Weitere Informationen über die Verwendung Ihrer Daten finden Sie in unserer Datenschutzerklärung. </p>
+<p>Wir nutzen Cookies auf unserer Website. Sie sind essenziell für die funktionalität der Website. Wenn Sie unter 16 Jahre alt sind und Ihre Zustimmung zu freiwilligen Diensten geben möchten, müssen Sie Ihre Erziehungsberechtigten um Erlaubnis bitten. Personenbezogene Daten können verarbeitet werden (z. B. IP-Adressen). Weitere Informationen über die Verwendung Ihrer Daten finden Sie in unserer Datenschutzerklärung. </p>
 </div>
      </Text>
       <Group position="center" mt="md">
