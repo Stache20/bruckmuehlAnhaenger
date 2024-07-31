@@ -17,7 +17,7 @@ function Datenschutzerklärung() {
 <p>Dieser Information können Sie auch entnehmen, welche Rechte Sie hinsichtlich des Datenschutzes haben.</p>
 
 <p>Verantwortlich für die Datenverarbeitung:<br /> 
-OMV Tankstelle Bruckmühl<br /> 
+Esso Tankstelle Bruckmühl<br /> 
 Albert Stahuber<br /> 
 Gewerbegebiet Obere Eichpold, Albert-Mayer-Straße 22, 83052 Bruckmühl<br /> 
 Telefon: +49 8062 7187<br/>
