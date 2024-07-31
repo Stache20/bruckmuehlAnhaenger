@@ -81,7 +81,7 @@ interface ContactIconsListProps {
 }
 
 const MOCKDATA = [
-    { title: 'OMV Tankstelle Bruckmühl', description: 'Albert Stahuber e.K.', link:'./impressum', icon: IconHome2 },
+    { title: 'Esso Tankstelle Bruckmühl', description: 'Albert Stahuber e.K.', link:'./impressum', icon: IconHome2 },
     { title: 'Email', description: 'de7482@partnernet.eurogarages.de',link:'mailto:de7482@partnernet.eurogarages.de', icon: IconAt },
   { title: 'Telefon', description: '+49 (8062) 7187', link:'tel:+49 (8062) 7187',icon: IconPhone },
   { title: 'Addresse', description: 'Albert-Mayer-Straße 22, 83052 Bruckmühl',link:'./impressum', icon: IconMapPin },
