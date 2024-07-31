@@ -12,7 +12,7 @@ function Impressum() {
             <Text mt="xs" color="dimmed"> <h1>Impressum</h1></Text>
         <Text mt="xs" color="dimmed" size="sm">
         <div>
-      <p>OMV Tankstelle Bruckmühl</p>
+      <p>Esso Tankstelle Bruckmühl</p>
       <p>Geschäftsführer Albert Stahuber</p>
       <p>Address: Gewerbegebiet Obere Eichpold, Albert-Mayer-Straße 22, 83052 Bruckmühl</p>
       <p>Email: de7482@partnernet.eurogarages.de</p>
