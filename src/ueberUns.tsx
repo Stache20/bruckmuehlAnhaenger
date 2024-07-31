@@ -108,7 +108,7 @@ export function HeroText() {
           <Text ta='center' component="span" className={classes.highlight} inherit>
             AnhängerVerleih
           </Text>
-          <Text size={25}>In der OMV-Tankstelle</Text>
+          <Text size={25}>In der Esso-Tankstelle</Text>
           <Text size={25}>Albert-Mayer-Straße 22, 83052 Bruckmühl </Text>
         </Title>
 
