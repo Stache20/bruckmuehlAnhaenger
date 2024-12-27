@@ -21,7 +21,7 @@ Esso Tankstelle Bruckmühl<br />
 Albert Stahuber<br /> 
 Gewerbegebiet Obere Eichpold, Albert-Mayer-Straße 22, 83052 Bruckmühl<br /> 
 Telefon: +49 8062 7187<br/>
-Email: de7482@partnernet.eurogarages.de</p>
+Email: partner-7482@de.eg.group</p>
 
 
 <p>Wir haben einen Datenschutzbeauftragten bestellt:</p>
