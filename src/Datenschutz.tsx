@@ -85,7 +85,7 @@ Email: datenschutz@racz-consult.de</p>
 <p><strong>Recht auf Auskunft</strong></p>
 <p>Sie haben das Recht, von uns als Verantwortliche die Information zu erhalten, ob wir personenbezogene Daten, die Sie betreffen, verarbeiten. Schließlich haben Sie auch das Recht, Auskunft darüber zu verlangen, ob Ihre personenbezogenen Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. In diesem Fall können Sie Informationen über die geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der Übermittlung verlangen.</p>
 
-<p>Ihren Auskunftsanspruch könnten Sie geltend machen unter: <a href="mailto:de7482@partnernet.eurogarages.de">de7482@partnernet.eurogarages.de</a></p>
+<p>Ihren Auskunftsanspruch könnten Sie geltend machen unter: <a href="mailto:partner-7482@de.eg.group">partner-7482@de.eg.group</a></p>
 
 <p><strong>Recht auf Berichtigung</strong></p>
 <p>Sollten die von uns verarbeiteten und Sie betreffenden personenbezogenen Daten unrichtig oder unvollständig sein, haben Sie uns gegenüber ein Recht auf Berichtigung und/oder Vervollständigung. Die Berichtigung wird unverzüglich vorgenommen.</p>
